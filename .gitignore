@@ -1,0 +1,45 @@
+@"
+# Большие файлы
+data/images/train.zip
+OIDv4_ToolKit/OID/csv_folder/train-annotations-bbox.csv
+OIDv4_ToolKit/OID/
+data/
+datas/
+new_data/
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8

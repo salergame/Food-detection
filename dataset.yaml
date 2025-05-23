@@ -1,23 +1,23 @@
-# Используем абсолютный путь
-path: C:/Users/Asus/Desktop/food_detection/data  # абсолютный путь к папке data
+
+path: C:/Users/Asus/Desktop/food_detection/data  
 train: images/train
 val: images/val
 test: images/test
 
-# Классы (добавьте все ваши классы продуктов)
+# Классы 
 names:
   0: apple
   1: banana
   2: orange
   3: bread
   4: cheese
-  # ... добавьте остальные
 
-# Информация о калориях (ккал на 100г)
+
+# Информация о калориях 
 calories:
   apple: 52
   banana: 89
   orange: 47
   bread: 265
   cheese: 402
-  # ... добавьте остальные
+

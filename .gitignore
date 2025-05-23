@@ -43,3 +43,5 @@ ENV/
 # Logs
 *.log
 "@ | Out-File -FilePath ".gitignore" -Encoding utf8
+*.jpg
+*.png
